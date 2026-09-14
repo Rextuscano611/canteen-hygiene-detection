@@ -75,6 +75,9 @@ secrets.yaml
 # ------ WHATSAPP IMAGES (use renamed versions in assets/ instead) ------
 WhatsApp Image*
 
+# ------ COMMANDS FILE (local use only) ------
+GITHUB_UPLOAD_COMMANDS.md
+
 # ------ MISC ------
 *.log
 *.tmp
