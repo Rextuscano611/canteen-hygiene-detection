@@ -20,7 +20,7 @@ In food service environments, wearing hair caps is mandatory for hygiene. This p
 |---|---|
 | ![haircap](assets/demo_haircap.jpeg) | ![no_haircap](assets/demo_no_haircap.jpeg) |
 
-> Demo video: *(Upload to YouTube/Google Drive and paste link here)*
+
 
 ---
 
@@ -125,18 +125,6 @@ yolo detect train \
 
 The best weights will be saved at `runs/detect/haircap_detector/weights/best.pt`.
 
----
-
-## 📊 Results
-
-| Metric | Value |
-|---|---|
-| mAP@50 | *(add your value)* |
-| Precision | *(add your value)* |
-| Recall | *(add your value)* |
-| Inference Speed | *(add your value)* |
-
-> Run `yolo detect val model=best.pt data=final_merged_dataset/data.yaml` to get metrics.
 
 ---
 
