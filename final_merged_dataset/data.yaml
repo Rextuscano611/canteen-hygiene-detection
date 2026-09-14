@@ -1,0 +1,7 @@
+path: C:\Users\Rex\OneDrive\Desktop\social_pill\school\final_merged_dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['hair_cap', 'no_hair_cap']

@@ -1,0 +1,18 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['hair_cap', 'no_hair_cap']
+
+roboflow:
+  workspace: detection-m6b08
+  project: canteen-hygiene-cctv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detection-m6b08/canteen-hygiene-cctv/dataset/1
+
+
+
+
+  

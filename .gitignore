@@ -1,0 +1,81 @@
+# ============================================================
+#  CANTEEN HYGIENE DETECTION — .gitignore
+# ============================================================
+
+# ------ LARGE DATASET FILES ------
+*.zip
+*.tar.gz
+*.tar
+
+# Dataset image folders (only data.yaml configs are kept)
+canteen-hygiene-cctv.v1-version_1_hair_cap.yolo26/train/
+canteen-hygiene-cctv.v1-version_1_hair_cap.yolo26/valid/
+canteen-hygiene-cctv.v1-version_1_hair_cap.yolo26/test/
+
+final_dem_2.v1-m_n.yolo26/train/
+final_dem_2.v1-m_n.yolo26/valid/
+final_dem_2.v1-m_n.yolo26/test/
+
+final_merged_dataset/train/
+final_merged_dataset/valid/
+final_merged_dataset/test/
+
+# Raw CCTV frames folder
+cctv_frames/
+
+# ------ VIDEOS ------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
+# ------ YOLO TRAINING RUNS (auto-generated) ------
+runs/
+
+# ------ PYTHON ------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+
+# ------ JUPYTER ------
+.ipynb_checkpoints/
+*.ipynb
+
+# ------ OS FILES ------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# ------ IDE ------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------ ENVIRONMENT / SECRETS ------
+.env
+.env.local
+*.key
+secrets.yaml
+
+# ------ WHATSAPP IMAGES (use renamed versions in assets/ instead) ------
+WhatsApp Image*
+
+# ------ MISC ------
+*.log
+*.tmp
+*.bak
